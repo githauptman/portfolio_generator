@@ -3,6 +3,15 @@ def credit_approval_with_portfolio(underwriting_output, portfolio):
     industry = underwriting_output['borrower_profile']['industry']['industry']
     facility_size = underwriting_output['credit_metrics']['facility_size']
 
+    # ✅ Minimum facility size check (e.g., $1MM)
+    if facility_size < 1_000_000:
+        return {
+            "decision": "Declined",
+            "reason": "Facility size below minimum threshold of $1,000,000",
+            "facility_size": facility_size,
+            "portfolio_used_capacity": portfolio['used_capacity']
+        }
+
     # Exposure checks
     industry_total = portfolio['industry_exposure'].get(industry, 0)
     borrower_total = portfolio['borrower_exposure'].get(borrower_id, 0)

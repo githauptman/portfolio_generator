@@ -1,10 +1,8 @@
-borrower_id,decision,reason,facility_size,loan_type,pd,lgd,term_years,spread_bps,total_rate
-b14f6fc5-e8b4-46e1-9002-fba4ad9dd83c,Approved,Meets all portfolio constraints,0,Term Loan,0.08,0.15,3,900,0.1339
-8d7e5979-6503-4ac4-9062-700cb8f95922,Approved,Meets all portfolio constraints,6961500.0,Hybrid (Term + Revolver),0.02,0.15,"{""Revolver"": 4, ""Term Loan"": 4}",650,0.1089
-5071e4de-2acd-4c73-83d1-a68a539b1a36,Approved,Meets all portfolio constraints,987700.0,Term Loan,0.08,0.15,3,900,0.1339
-56e0ddb2-2870-4250-aaad-a0c7bf201fd0,Approved,Meets all portfolio constraints,4114000.0,Hybrid (Term + Revolver),0.02,0.15,"{""Revolver"": 4, ""Term Loan"": 4}",650,0.1089
-d9737c11-a834-489c-854b-40708233d365,Approved,Meets all portfolio constraints,11664000.000000002,Hybrid (Term + Revolver),0.02,0.45,"{""Revolver"": 4, ""Term Loan"": 4}",650,0.1089
-2ca8ff05-6906-45f9-ad7d-d36bdd58c9a4,Declined,Industry exposure for Specialty Chemicals would exceed $20MM limit,43743700.0,Revolver,0.005,0.3,5,350,0.0789
-7a194ac8-d956-4582-8cc5-f979c0511e66,Approved,Meets all portfolio constraints,13650999.999999996,Revolver,0.02,0.15,4,650,0.1089
-3f834880-8c78-49b1-8c4e-3f93c487831e,Approved,Meets all portfolio constraints,4838399.999999998,Hybrid (Term + Revolver),0.02,0.3,"{""Revolver"": 4, ""Term Loan"": 4}",650,0.1089
-225b5fb6-a47c-448d-af20-a8c35114ac01,Approved,Meets all portfolio constraints,7507500.0,Hybrid (Term + Revolver),0.02,0.45,"{""Revolver"": 4, ""Term Loan"": 4}",650,0.1089
+borrower_id,decision,reason,facility_size,loan_type,pd,lgd,term_years,spread_bps,total_rate,funding_date
+bbbb2b69-82e8-4356-8f30-d49416856baf,Approved,Meets all portfolio constraints,9324000.0,Hybrid (Term + Revolver),0.02,0.3,"{""Revolver"": 4, ""Term Loan"": 4}",650,0.0965,2019-01-02
+4741fcd2-bd79-4a4b-b2df-cfa97f7a55ea,Approved,Meets all portfolio constraints,5328000.0,Hybrid (Term + Revolver),0.02,0.15,"{""Revolver"": 4, ""Term Loan"": 4}",650,0.0892,2019-01-08
+1d2f8db9-4181-4bb6-99e9-2bbf0ef3e131,Approved,Meets all portfolio constraints,2095200.0,Term Loan,0.08,0.45,3,900,0.1146,2019-01-15
+0ee15391-199e-4842-ad88-630ab26cd887,Declined,Industry exposure for Packaging would exceed $20MM limit,45851900.0,Revolver,0.005,0.3,5,350,0.0591,2019-01-22
+6004855b-4539-4bbd-afec-043b932093b0,Approved,Meets all portfolio constraints,14012500.0,Revolver,0.02,0.45,4,650,0.089,2019-01-29
+ddce91ca-642f-4c63-9f2b-85cf75a54018,Declined,"Facility size below minimum threshold of $1,000,000",0,Term Loan,0.08,0.15,3,900,0.114,2019-02-05
+ebe00a29-1fa5-42ef-bfcd-575659635504,Approved,Meets all portfolio constraints,10852800.0,Hybrid (Term + Revolver),0.02,0.45,"{""Revolver"": 4, ""Term Loan"": 4}",650,0.0889,2019-02-12
